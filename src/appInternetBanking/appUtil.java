@@ -17,9 +17,10 @@ public class appUtil {
 	
 	public static FileWriter path(int choose) throws IOException {
 		
+		// ************************ ALTERAR PATH AQUI ************************
 		String path = "E:\\Meus Documentos\\Área de Trabalho\\Workspace\\Banco\\SISTEMA-BANCARIO--POO-RESIDENCIA-SOFTWARE\\";
-		// 1 = path alterações
-		// 2 = path notafiscal
+		// 1 = PATH ALTERAÇÕES
+		// 2 = PATH NOTAFISCAL
 		if(choose == 1) {
 			FileWriter arq1 = new FileWriter(
 					path + "alteracoes.txt",

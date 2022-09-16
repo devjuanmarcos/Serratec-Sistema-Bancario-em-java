@@ -209,7 +209,7 @@ public abstract class Conta implements Comparable<Conta> {
 						logada.saldo -= SeguroDeVida.Seguro(contaSeguro);
 						System.out.println("\nParabéns! Você acaba de contratar nosso serviço de seguro!\n");
 						RelatorioFinal2.nfSeguro(logada.nome, logada.CPFDoTitular, valorTributacao);
-						RelatorioFinal2.rfSeguroDeVida(logada.nome, valorTributacao);
+						RelatorioFinal2.rfSeguroDeVida(logada.nome, contaSeguro);
 
 					case 2:
 						break;

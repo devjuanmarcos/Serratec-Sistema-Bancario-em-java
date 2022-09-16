@@ -1,5 +1,5 @@
 
 -----------------------NOTA FISCAL-----------------------
 -----------------------Seguro de Vida-----------------------
-2022/09/16 20:19:34 - Usuário: ZeldaGerente, CPF: 1234
-fechou contrato do serviço Seguro de vida, pagando uma taxa tributação de R$ 20.0 (20% do valor solicitade a assegurar)
+2022/09/16 20:24:51 - Usuário: ZeldaGerente, CPF: 1234
+fechou contrato do serviço Seguro de vida, pagando uma taxa tributação de R$ 18.0 (20% do valor solicitade a assegurar)
