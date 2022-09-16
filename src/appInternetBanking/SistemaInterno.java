@@ -21,14 +21,12 @@ public class SistemaInterno {
 
 		Usuario user = null;
 		Conta conta = null;
-
-		String path = "E:\\Meus Documentos\\Área de Trabalho\\Workspace\\SISTEMA-BANCARIO---JAVA1-POO---RESIDENCIA-DE-SOFTWARE\\Projeto Banco\\usuario.txt";
+		
+		// ************************ ALTERAR PATH AQUI ************************
+		String path = "E:\\Meus Documentos\\Área de Trabalho\\Workspace\\Banco\\SISTEMA-BANCARIO--POO-RESIDENCIA-SOFTWARE\\usuario.txt";
+		
 		String linha = "";
 
-//		FileWriter arq = new FileWriter(
-//				"C:\\Users\\jncon\\Documents\\workspace-spring-tool-suite-4-4.15.3.RELEASE\\Projeto Banco\\alteracoes.txt");
-//		PrintWriter gravarArq = new PrintWriter(arq);
-//		BufferedWriter arq2 = new BufferedWriter(arq);
 		BufferedReader br = new BufferedReader(new FileReader(path));
 
 		while ((linha = br.readLine()) != null) {

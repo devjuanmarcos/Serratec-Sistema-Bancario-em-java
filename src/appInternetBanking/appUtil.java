@@ -16,17 +16,20 @@ public class appUtil {
 	}
 	
 	public static FileWriter path(int choose) throws IOException {
-		// 1 = path alterações
-		// 2 = path notafiscal
+		
+		// ************************ ALTERAR PATH AQUI ************************
+		String path = "E:\\Meus Documentos\\Área de Trabalho\\Workspace\\Banco\\SISTEMA-BANCARIO--POO-RESIDENCIA-SOFTWARE\\";
+		// 1 = PATH ALTERAÇÕES
+		// 2 = PATH NOTAFISCAL
 		if(choose == 1) {
 			FileWriter arq1 = new FileWriter(
-					"E:\\Meus Documentos\\Área de Trabalho\\Workspace\\SISTEMA-BANCARIO---JAVA1-POO---RESIDENCIA-DE-SOFTWARE\\Projeto Banco\\alteracoes.txt",
+					path + "alteracoes.txt",
 					true);
 			return arq1;
 		}
 		if(choose==2){
 			FileWriter arq2 = new FileWriter(
-					"E:\\Meus Documentos\\Área de Trabalho\\Workspace\\SISTEMA-BANCARIO---JAVA1-POO---RESIDENCIA-DE-SOFTWARE\\Projeto Banco\\nota fiscal.txt",
+					path + "nota fiscal.txt",
 					false);
 			return arq2;
 		}

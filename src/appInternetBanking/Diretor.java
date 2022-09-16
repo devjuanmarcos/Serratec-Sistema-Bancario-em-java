@@ -14,20 +14,5 @@ public class Diretor extends Usuario {
 		return "Diretor [" + (cargo != null ? "cargo=" + cargo : "") + "]";
 	}
 
-	/*
-	 * @Override public void saca(double valor) { // TODO Auto-generated method stub
-	 * 
-	 * }
-	 * 
-	 * @Override public void deposito(double valor) { // TODO Auto-generated method
-	 * stub
-	 * 
-	 * }
-	 * 
-	 * @Override public void transferencia(Conta c, double valor) { // TODO
-	 * Auto-generated method stub
-	 * 
-	 * }
-	 */
 
 }

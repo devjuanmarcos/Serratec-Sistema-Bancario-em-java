@@ -5,7 +5,6 @@ public class Corrente extends Conta {
 	public Corrente(String TipoConta, String cPF, String nome, String tipoUsuario, int numeroDaConta,
 			int agencia, double saldo, double tarifacao) {
 		super(TipoConta, cPF, nome, tipoUsuario, numeroDaConta, agencia, saldo, tarifacao);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

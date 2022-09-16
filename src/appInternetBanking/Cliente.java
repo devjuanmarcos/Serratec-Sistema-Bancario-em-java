@@ -4,7 +4,6 @@ public class Cliente extends Usuario {
 
 	public Cliente(String tipoUsuario, String cPF, String senha, String nome, String TipoConta) {
 		super(tipoUsuario, cPF, senha, nome, TipoConta);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
