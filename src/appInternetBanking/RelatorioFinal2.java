@@ -42,13 +42,24 @@ public class RelatorioFinal2 extends Conta {
 		appUtil.path(1);
 		String data = Data.Data();
 		PrintWriter gravarArq = new PrintWriter(appUtil.path(1));
-//		String.format("%.2f", destino);
 		gravarArq.println("Usuário " + nome + " efetuou uma transferência de R$ " + valor + " para a conta " + destino
 				+ "- " + data);
 		gravarArq.close();
 
 		return gravarArq;
 	}
+	
+	public static PrintWriter rfSeguroDeVida(String nome, double valor) throws IOException {
+		appUtil.path(1);
+		String data = Data.Data();
+		PrintWriter gravarArq = new PrintWriter(appUtil.path(1));
+		gravarArq.println("Usuário " + nome + " assegurou o valor de R$ " + valor 
+				+ "- " + data);
+		gravarArq.close();
+
+		return gravarArq;
+	}
+	
 	// digitador.txt para ocasiões de NF SAQUE
 	public static PrintWriter nfSaque(String nome, String cPFDoTitular, double valor) throws IOException {
 		

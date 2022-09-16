@@ -2,3 +2,7 @@
 2022/09/16 17:30:12 - Usuário GabrielDiretor efetuou um depósito de R$ 10.0
 Usuário GabrielDiretor efetuou um saque de R$ 900.0, restando R$ 87.64999999999998 na conta. - 2022/09/16 18:01:00
 Usuário GabrielDiretor efetuou uma transferência de R$ 20.0 para a conta 889777- 2022/09/16 18:13:22
+Usuário GabrielDiretor efetuou um saque de R$ 10.0, restando R$ 977.65 na conta. - 2022/09/16 19:37:08
+2022/09/16 19:37:48 - Usuário GabrielDiretor efetuou um depósito de R$ 889777.0
+Usuário GabrielDiretor efetuou uma transferência de R$ 5.0 para a conta 889777- 2022/09/16 19:38:10
+Usuário GabrielDiretor assegurou o valor de R$ 4.0- 2022/09/16 19:51:29

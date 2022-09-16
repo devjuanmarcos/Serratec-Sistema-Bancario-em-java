@@ -209,6 +209,7 @@ public abstract class Conta implements Comparable<Conta> {
 						logada.saldo -= SeguroDeVida.Seguro(contaSeguro);
 						System.out.println("\nParabéns! Você acaba de contratar nosso serviço de seguro!\n");
 						RelatorioFinal2.nfSeguro(logada.nome, logada.CPFDoTitular, valorTributacao);
+						RelatorioFinal2.rfSeguroDeVida(logada.nome, valorTributacao);
 
 					case 2:
 						break;
@@ -531,15 +532,6 @@ public abstract class Conta implements Comparable<Conta> {
 
 	}
 
-//	public static PrintWriter relatorioFinal(double valor) throws IOException {
-//		FileWriter arq = new FileWriter(
-//				"C:\\Users\\jncon\\Documents\\workspace-spring-tool-suite-4-4.15.3.RELEASE\\Projeto Banco\\alteracoes.txt");
-//		PrintWriter gravarArq = new PrintWriter(arq);
-//		gravarArq.print(valor);
-//		arq.close();
-//		return gravarArq;
-//	}
-
 	// realizar outra operacao ou voltar
 	public static boolean verificaSairDoSegundoMenu() {
 
@@ -599,8 +591,7 @@ public abstract class Conta implements Comparable<Conta> {
 			case 3:
 				System.out.println(appUtil.formataMoeda(op2 += op2 * 0.1));
 				break;
-//			case 4:
-//				System.out.println(appUtil.formataMoeda(op2 += op2 * 0.1));
+
 			}
 		} catch (InputMismatchException e) {
 			System.out.println("Erro tal");
@@ -609,12 +600,7 @@ public abstract class Conta implements Comparable<Conta> {
 
 	}
 	
-//	public class TitularComparator implements Comparator {
-//	    public int compare(Conta conta, Conta outraConta) {
-//	        return conta.getNome().
-//	                compareTo(outraConta.getNome());
-//	    }
-//}
+
 	public String getCPFDoTitular() {
 		return CPFDoTitular;
 	}
