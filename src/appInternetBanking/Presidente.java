@@ -6,7 +6,6 @@ public class Presidente extends Usuario {
 
 	public Presidente(String tipoUsuario, String cPF, String senha, String nome, String tipoConta) {
 		super(tipoUsuario, cPF, senha, nome, tipoConta);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

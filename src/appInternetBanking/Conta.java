@@ -191,7 +191,7 @@ public abstract class Conta implements Comparable<Conta> {
 
 				// seguro de vida
 			case 4:
-//				try {
+
 				System.out.println("Digite o valor que deseja assegurar: ");
 				double contaSeguro = new Scanner(System.in).nextInt();
 
@@ -222,10 +222,7 @@ public abstract class Conta implements Comparable<Conta> {
 					System.out.println("Você não tem saldo suficiente para completar essa solicitação.\n");
 				}
 
-//				} catch (Exception ee) {
-//					System.out.println("Você inseriu um caracter inválido. Por favor, tente novamente.\n ");
-//					break;
-//				}
+
 				// realizar outra operacao ou sair
 				if (verificaSairDoSegundoMenu()) {
 
